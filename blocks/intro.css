@@ -1,0 +1,63 @@
+.intro {
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  margin-bottom: 118px;
+}
+
+.intro__title {
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0 0 40px;
+  max-width: 785px;
+}
+
+.intro__quote {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 720px;
+  margin: 0;
+}
+
+.intro__quote-text {
+  margin: 0 0 10px;
+}
+
+.intro__quote-author {
+  text-align: right;
+  margin: 0;
+}
+
+.intro__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 163%;
+  margin: 32px 0 0;
+  max-width: 720px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .intro {
+    max-width: 288px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+  }
+
+  .intro__quote {
+    line-height: 1.25;
+  }
+
+  .intro__quote-author {
+    line-height: 1.4;
+  }
+}
